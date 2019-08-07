@@ -12,11 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/samsung/n7100
-
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)/proprietary/lib/libakm.so:system/lib/libakm.so \
-    $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
-    $(LOCAL_PATH)/proprietary/lib/libstlport.so:system/lib/libstlport.so
+    vendor/samsung/n7100/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/n7100/proprietary/lib/libakm.so:system/lib/libakm.so \
+    vendor/samsung/n7100/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/n7100/proprietary/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+    vendor/samsung/n7100/proprietary/lib/libstlport.so:system/lib/libstlport.so
